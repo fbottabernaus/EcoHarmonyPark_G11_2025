@@ -8,7 +8,7 @@ Se creará una primera línea base una vez que se hayan cargado todos los archiv
 ---
 
 ## **Estructura del repositorio**
-EcoHarmony_Park
+EcoHarmony_Park_G11_2025
 - 📂 **Readme/**(ver si esto va)
 - 📂 **Documentacion/**
   - 📂 **Casos de prueba/**
@@ -34,23 +34,23 @@ Repositorio que contiene documentación, código, e ítems de configuración del
 
 | Nombre Ítem de configuración  | Regla de Nombrado                      | Ubicación Física                                            |
 |-------------------------------|----------------------------------------|-------------------------------------------------------------|
-| Plan de configuracion         | `PlanConfig_<<Elemento>>.pdf`          | ISW_Grupo11_2025/EcoHarmonyPark                             |
-| Estructura                    | `Estructura_Proyecto.pdf`              | ISW_Grupo11_2025/EcoHarmonyPark/Plan_de_configuracion       |
-| Reglas de nombrado            | `Reglas_Nombrado.pdf`                  | ISW_Grupo11_2025/EcoHarmonyPark/Plan_de_configuracion       |
-| Herramientas de desarrollo    | `<<Nombre_Herramienta>>_HD.pdf`        | ISW_Grupo11_2025/EcoHarmonyPark/Plan_de_configuracion       |
-| Dependencias                  | `<<Nro>>_<<Nombre_Depend>>.pdf`        | ISW_Grupo11_2025/EcoHarmonyPark/Plan_de_configuracion       |
-| Línea base                    | `LineaBase_<<Fecha>>.pdf`              | ISW_Grupo11_2025/EcoHarmonyPark/Plan_de_configuracion       |
-| Documentación                 | `Documentación_<<Tipo>>.pdf`           | ISW_Grupo11_2025/EcoHarmonyPark                             |
-| HUS                           | `HUS_<<Número>>_<<Nombre>>.pdf`        | ISW_Grupo11_2025/EcoHarmonyPark/Documentacion               |
-| CP                            | `CP_<<Número>>_<<Nombre>>.pdf`         | ISW_Grupo11_2025/EcoHarmonyPark/Documentacion               |
-| Minutas                       | `Minuta_<<Fecha>>_<<Nombre>>.pdf`      | ISW_Grupo11_2025/EcoHarmonyPark/Documentacion               |
-| Requerimientos                | `<<Nombre>>_<<Versión>>.pdf`           | ISW_Grupo11_2025/EcoHarmonyPark/Documentacion               |
-| Readme                        | `README.md`                            | ISW_Grupo11_2025/EcoHarmonyPark                             |
-| Base de Datos                 | `BD_<<Versión>>.sql`                   | ISW_Grupo11_2025/EcoHarmonyPark                             |
-| Desarrollo App                | `App_<<Módulo>>.<<ext>>`               | ISW_Grupo11_2025/EcoHarmonyPark                             |
-| Prototipos                    | `Prototipo_<<Tipo>>.<<Tipo_Archivo>>`  | ISW_Grupo11_2025/EcoHarmonyPark/Desarrollo_App              |
-| Tipografías                   | `Tipografía_<<Nombre>>.pdf`            | ISW_Grupo11_2025/EcoHarmonyPark/Desarrollo_App/Prototipos   |
-| Colores                       | `Colores_Paleta.pdf`                   | ISW_Grupo11_2025/EcoHarmonyPark/Desarrollo_App/Prototipos   |
-| Iconografía                   | `Iconografía_Set.pdf`                  | ISW_Grupo11_2025/EcoHarmonyPark/Desarrollo_App/Prototipos   |
-| Equipo                        | `Equipo_<<Miembro>>.pdf`               | ISW_Grupo11_2025/EcoHarmonyPark                             |
-| Planificación de tareas       | `Planificación_<<Periodo>>.xlsx`       | ISW_Grupo11_2025/EcoHarmonyPark                             |
+| Plan de configuracion         | `PlanConfig_<<Elemento>>.pdf`          | EcoHarmony_Park_G11_2025                                    |
+| Estructura                    | `Estructura_Proyecto.pdf`              | EcoHarmony_Park_G11_2025/Plan_de_configuracion              |
+| Reglas de nombrado            | `Reglas_Nombrado.pdf`                  | EcoHarmony_Park_G11_2025/Plan_de_configuracion              |
+| Herramientas de desarrollo    | `<<Nombre_Herramienta>>_HD.pdf`        | EcoHarmony_Park_G11_2025/Plan_de_configuracion              |
+| Dependencias                  | `<<Nro>>_<<Nombre_Depend>>.pdf`        | EcoHarmony_Park_G11_2025/Plan_de_configuracion              |
+| Línea base                    | `LineaBase_<<Fecha>>.pdf`              | EcoHarmony_Park_G11_2025/Plan_de_configuracion              |
+| Documentación                 | `Documentación_<<Tipo>>.pdf`           | EcoHarmony_Park_G11_2025                                    |
+| HUS                           | `HUS_<<Número>>_<<Nombre>>.pdf`        | EcoHarmony_Park_G11_2025/Documentacion                      |
+| CP                            | `CP_<<Número>>_<<Nombre>>.pdf`         | EcoHarmony_Park_G11_2025/Documentacion                      |
+| Minutas                       | `Minuta_<<Fecha>>_<<Nombre>>.pdf`      | EcoHarmony_Park_G11_2025/Documentacion                      |
+| Requerimientos                | `<<Nombre>>_<<Versión>>.pdf`           | EcoHarmony_Park_G11_2025/Documentacion                      |
+| Readme                        | `README.md`                            | EcoHarmony_Park_G11_2025                                    |
+| Base de Datos                 | `BD_<<Versión>>.sql`                   | EcoHarmony_Park_G11_2025                                    |
+| Desarrollo App                | `App_<<Módulo>>.<<ext>>`               | EcoHarmony_Park_G11_2025                                    |
+| Prototipos                    | `Prototipo_<<Tipo>>.<<Tipo_Archivo>>`  | EcoHarmony_Park_G11_2025/Desarrollo_App                     |
+| Tipografías                   | `Tipografía_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Desarrollo_App/Prototipos          |
+| Colores                       | `Colores_Paleta.pdf`                   | EcoHarmony_Park_G11_2025/Desarrollo_App/Prototipos          |
+| Iconografía                   | `Iconografía_Set.pdf`                  | EcoHarmony_Park_G11_2025/Desarrollo_App/Prototipos          |
+| Equipo                        | `Equipo_<<Miembro>>.pdf`               | EcoHarmony_Park_G11_2025                                    |
+| Planificación de tareas       | `Planificación_<<Periodo>>.xlsx`       | EcoHarmony_Park_G11_2025                                    |
