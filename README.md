@@ -20,7 +20,11 @@ EcoHarmony_Park
   - 📂 **Estructura/**
   - 📂 **Herramientas de desarrollo/**
   - 📂 **Reglas de nombrado/**
-
+- 📂 **Base de Datos/**
+- 📂 **Desarrollo - App /**
+  - 📂 **Prototipos/**
+- 📂 **Equipo/**
+- 📂 **Planificacion de tareas/**
 
 
 Repositorio que contiene documentación, código, e ítems de configuración del proyecto de software EcoHarmony Park
