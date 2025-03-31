@@ -10,15 +10,17 @@ Se creará una primera línea base una vez que se hayan cargado todos los archiv
 ## **Estructura del repositorio**
 EcoHarmony_Park
 - 📂 **Readme/**(ver si esto va)
-- 📂 **Plan de configuracion/**
-  - 📂 **Estructura/**
-  - 📂 **Reglas de nombrado/**
-  - 📂 **Herramientas de desarrollo/**
-  - 📂 **Dependencias/**
 - 📂 **Documentacion/**
-  - 📂 **User Stories/**
   - 📂 **Casos de prueba/**
   - 📂 **Minutas/**
   - 📂 **Requerimientos/**
+  - 📂 **User Stories/**
+- 📂 **Plan de configuracion/**
+  - 📂 **Dependencias/**
+  - 📂 **Estructura/**
+  - 📂 **Herramientas de desarrollo/**
+  - 📂 **Reglas de nombrado/**
+
+
 
 Repositorio que contiene documentación, código, e ítems de configuración del proyecto de software EcoHarmony Park
