@@ -60,20 +60,20 @@ Repositorio que contiene documentación, código, e ítems de configuración del
 
 | Sigla        | Significado |
 |--------------|-------------|
-| <<Autor>>    | Nombre del autor del libro o material utilizado en la bibliografía. Se utilizará “CamelCase” para el nombre. (Ej: MikeCohn) |
-| <<Fecha>>    | Fecha de ocurrencia del evento. |
-| <<ICS>>      | Nombre de la materia Ingeniería y Calidad de Software |
-| <<Tema>>     | Nombre del tema al cual corresponde el ejercicio o el material bibliografico |
-| <<Título>>   | Nombre del libro o material bibliográfico. Se utilizará el formato “CamelCase” |
-| <<ext>>      | Extensión del archivo (ej. pdf, docx) |
-| <<Miembro>>  | Nombre del miembro que conforma el equipo en formato CamelCase (Ej: JuanPerez) |
-| <<Nombre_Herramienta>> | Nombre de la herramienta que se va a utilizar para el desarrollo. Se utilizará el formato “CamelCase” |
-| <<Nombre_Depend>> | Nombre de la dependencia que se implementa para el desarrollo. Se utilizará el formato “CamelCase” |
-| <<Nombre_Tipografia>> | Nombre de la tipografia a utilizar. Se utilizará el formato “CamelCase” |
-| <<Nombre>>   | Nombre del item de configuración en la documentación. Se utilizará el formato “CamelCase” |
-| <<Nro>> | Valor numerico entero de dos digitos |
-| <<Versión>> | Numero de versionado del item de configuración |
-| <<Periodo>> | Periodo de vigencia para la planificación. Se reconocerán los periodos con fecha de inicio y fecha fin, con el formato 'dd-mm-aaaa' d:Día, m:Mes, a:Año|
+| `<<Autor>>`    | Nombre del autor del libro o material utilizado en la bibliografía. Se utilizará “CamelCase” para el nombre. (Ej: MikeCohn) |
+| `<<Fecha>>`   | Fecha de ocurrencia del evento. |
+| `<<ICS>>`      | Nombre de la materia Ingeniería y Calidad de Software |
+| `<<Tema>>`    | Nombre del tema al cual corresponde el ejercicio o el material bibliografico |
+| `<<Título>>`   | Nombre del libro o material bibliográfico. Se utilizará el formato “CamelCase” |
+| `<<ext>>`      | Extensión del archivo (ej. pdf, docx) |
+| `<<Miembro>>`  | Nombre del miembro que conforma el equipo en formato CamelCase (Ej: JuanPerez) |
+| `<<Nombre_Herramienta>>` | Nombre de la herramienta que se va a utilizar para el desarrollo. Se utilizará el formato “CamelCase” |
+| `<<Nombre_Depend>>` | Nombre de la dependencia que se implementa para el desarrollo. Se utilizará el formato “CamelCase” |
+| `<<Nombre_Tipografia>>` | Nombre de la tipografia a utilizar. Se utilizará el formato “CamelCase” |
+| `<<Nombre>>`   | Nombre del item de configuración en la documentación. Se utilizará el formato “CamelCase” |
+| `<<Nro>>` | Valor numerico entero de dos digitos |
+| `<<Versión>>` | Numero de versionado del item de configuración |
+| `<<Periodo>>` | Periodo de vigencia para la planificación. Se reconocerán los periodos con fecha de inicio y fecha fin, con el formato 'dd-mm-aaaa' d:Día, m:Mes, a:Año|
 
 Elemento(Revisar)
 Tipo(Revisar)
