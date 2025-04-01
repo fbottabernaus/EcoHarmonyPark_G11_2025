@@ -32,8 +32,6 @@ EcoHarmony_Park_G11_2025
 - 📂 **Planificacion de tareas/**
 
 
-Repositorio que contiene documentación, código, e ítems de configuración del proyecto de software EcoHarmony Park
-
 
 **Listado de Ítems de Configuración**
 
@@ -43,7 +41,7 @@ Repositorio que contiene documentación, código, e ítems de configuración del
 | Reglas de nombrado            | `Reglas_Nombrado.pdf`                  | EcoHarmony_Park_G11_2025/Plan_de_configuracion/Reglas_de_nombrado              |
 | Herramientas de desarrollo    | `<<Nombre_Herramienta>>_HD.pdf`        | EcoHarmony_Park_G11_2025/Plan_de_configuracion/Herramientas_de_desarrollo              |
 | Dependencias                  | `<<Nro>>_<<Nombre_Depend>>.pdf`        | EcoHarmony_Park_G11_2025/Plan_de_configuracion/Dependencias              |
-| User Stories                  | `US_<<Nro>>_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Documentacion/User Stories                      |
+| User Stories                  | `US_<<Nro>>_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Documentacion/User_Stories                      |
 | Casos de prueba               | `CP_<<Nro>>_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Documentacion/Casos_de_prueba                      |
 | Minutas                       | `Minuta_<<Fecha>>_<<Nombre>>.pdf`      | EcoHarmony_Park_G11_2025/Documentacion/Minutas                      |
 | Requerimientos                | `<<Nombre>>_<<Versión>>.pdf`           | EcoHarmony_Park_G11_2025/Documentacion/Requerimientos                      |
@@ -64,7 +62,7 @@ Repositorio que contiene documentación, código, e ítems de configuración del
 |--------------|-------------|
 | `<<Autor>>`    | Nombre del autor del libro o material utilizado en la bibliografía. Se utilizará “CamelCase” para el nombre. (Ej: RogerPressman) |
 | `<<Fecha>>`   | Fecha de ocurrencia del evento. Con el formato 'dd-mm-aaaa' d:Día, m:Mes, a:Año |
-| `<<ICS>>`      | Nombre de la materia Ingeniería y Calidad de Software |
+| `ICS`         | Nombre de la materia Ingeniería y Calidad de Software |
 | `<<Tema>>`    | Nombre del tema al cual corresponde el ejercicio o el material bibliografico |
 | `<<Título>>`   | Nombre del libro o material bibliográfico. Se utilizará el formato “CamelCase” |
 | `<<ext>>`      | Extensión del archivo (Ej: pdf, docx) |
@@ -75,7 +73,5 @@ Repositorio que contiene documentación, código, e ítems de configuración del
 | `<<Nombre>>`   | Nombre del item de configuración en la documentación. Se utilizará el formato “CamelCase” |
 | `<<Nro>>` | Valor numerico entero de dos digitos (Ej: 01) |
 | `<<Versión>>` | Numero de versionado del item de configuración |
-| `<<Periodo>>` | Periodo de vigencia para la planificación. Se reconocerán los periodos con fecha de inicio y fecha fin, con el formato 'dd-mm-aaaa' d:Día, m:Mes, a:Año|
+| `<<Periodo>>` | Periodo de vigencia para la planificación. Se reconocerán los periodos con fecha de inicio y fecha fin, con el formato 'dd-mm-aaaa_dd-mm-aaaa' d:Día, m:Mes, a:Año|
 | `<<Tipo>>` | Nombre del componente desarrollado (Ej: Pantalla principal, Menu, Entidades) |
-
-
