@@ -1,6 +1,6 @@
-# Plan de configuracion y estructura del proyecto EcoHarmony_Park
+# Plan de configuracion y estructura del proyecto EcoHarmony_Park_G11_2025
 
-Este plan describe la configuración y estructura del repositorio que se utilizará para el desarrollo en el tiempo con respecto al proyecto EcoHarmony_Park. El objetivo es establecer una organización clara de los archivos que se van a utilizar, así como un criterio de línea base que permita mantener un registro ordenado de las versiones a lo largo del curso.
+Este plan describe la configuración y estructura del repositorio que se utilizará para el desarrollo en el tiempo con respecto al proyecto EcoHarmony_Park_G11_2025. El objetivo es establecer una organización clara de los archivos que se van a utilizar, así como un criterio de línea base que permita mantener un registro ordenado de las versiones a lo largo del curso.
 
 **Criterio de Línea Base:**
 Se creará una primera línea base una vez que se hayan cargado todos los archivos correspondientes al primer trabajo práctico (TP) evaluable en el repositorio. Las siguientes líneas base se generarán luego de la entrega de cada TP evaluable relacionados al proyecto.
@@ -9,7 +9,6 @@ Se creará una primera línea base una vez que se hayan cargado todos los archiv
 
 ## **Estructura del repositorio**
 EcoHarmony_Park_G11_2025
-- 📂 **Readme/**(ver si esto va)
 - 📂 **Documentacion/**
   - 📂 **Casos de prueba/**
   - 📂 **Minutas/**
@@ -23,6 +22,8 @@ EcoHarmony_Park_G11_2025
 - 📂 **Base de Datos/**
 - 📂 **Desarrollo/**
   - 📂 **Prototipos/**
+  - 📂 **Frontend/**
+  - 📂 **Backend/**
 - 📂 **Equipo/**
 - 📂 **Planificacion de tareas/**
 
@@ -48,11 +49,13 @@ Repositorio que contiene documentación, código, e ítems de configuración del
 | Bibliografia                  | `<<Título>>_<<Autor>>.pdf`             | EcoHarmony_Park_G11_2025/Documentacion                      |
 | Readme                        | `README.md`                            | EcoHarmony_Park_G11_2025                                    |
 | Base de Datos                 | `BD_<<Versión>>.sql`                   | EcoHarmony_Park_G11_2025                                    |
-| Desarrollo App                | `App_<<Módulo>>.<<ext>>`               | EcoHarmony_Park_G11_2025                                    |
+| Desarrollo                    | `App_<<Módulo>>.<<ext>>`               | EcoHarmony_Park_G11_2025                                    |
 | Prototipos                    | `Prototipo_<<Tipo>>.<<ext>>`           | EcoHarmony_Park_G11_2025/Desarrollo                         |
 | Tipografías                   | `Tipografía_<<Nombre_Tipografia>>.<<ext>>`| EcoHarmony_Park_G11_2025/Desarrollo/Prototipos           |
-| Colores                       | `Colores_Paleta.pdf`                   | EcoHarmony_Park_G11_2025/Desarrollo/Prototipos              |
-| Iconografía                   | `Iconografía_Set.pdf`                  | EcoHarmony_Park_G11_2025/Desarrollo/Prototipos              |
+| Colores                       | `Colores_Paleta.<<ext>>`               | EcoHarmony_Park_G11_2025/Desarrollo/Prototipos              |
+| Iconografía                   | `Iconografía_Set.<<ext>>`              | EcoHarmony_Park_G11_2025/Desarrollo/Prototipos              |
+| Frontend                      | `Frontend_<<Tipo>>.<<ext>>`            | EcoHarmony_Park_G11_2025/Desarrollo                         |
+| Backend                       | `Backend_<<Tipo>>.<<ext>>`             | EcoHarmony_Park_G11_2025/Desarrollo                         |
 | Equipo                        | `Equipo_<<Miembro>>.pdf`               | EcoHarmony_Park_G11_2025                                    |
 | Planificación de tareas       | `Planificación_<<Periodo>>.xlsx`       | EcoHarmony_Park_G11_2025                                    |
 
@@ -75,6 +78,4 @@ Repositorio que contiene documentación, código, e ítems de configuración del
 | `<<Versión>>` | Numero de versionado del item de configuración |
 | `<<Periodo>>` | Periodo de vigencia para la planificación. Se reconocerán los periodos con fecha de inicio y fecha fin, con el formato 'dd-mm-aaaa' d:Día, m:Mes, a:Año|
 
-Elemento(Revisar)
-Tipo(Revisar)
-Módulo(Revisar)
+
