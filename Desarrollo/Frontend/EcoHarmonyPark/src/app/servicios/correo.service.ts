@@ -23,7 +23,7 @@ export class CorreoService {
   public generarCorreo(inscripcion: InscripcionDTO){
     console.log("Generando correo")
     let form:CorreoTemplate = {
-      nombre: "Braian desde el front prueba QR",
+      nombre: "Braian",
       email: "braianespanon@gmail.com",
       actividad: inscripcion.actividad.nombre,
       fecha: inscripcion.diaElegido.fecha,
@@ -32,20 +32,6 @@ export class CorreoService {
     };
     console.log("Correo generado")
     this.enviarCorreo(form)
-  }
-
-  private mandarCorreo(form: any) {
-    console.log("Enviando correo")
-    emailjs.send('service_ft2t10w', 'template_k7iu6mq', form, 'a8mVOawSQcFYnQ1wA')
-      .then((response: EmailJSResponseStatus) => {
-        console.log("Correo enviado")
-        alert('✅ Inscripción enviada correctamente');
-      }, (error) => {
-        console.log("Error al enviar")
-        console.error('❌ Error al enviar', error);
-        alert('Hubo un error al enviar el formulario.');
-      });
-    console.log("Fin de correo")
   }
   
   enviarCorreo(form: any) {

@@ -1,0 +1,22 @@
+<div class="contenedor">
+    <h2>Te has inscripto a {{inscripcionFinal.actividad.nombre}}</h2>
+    <p>Te has inscripto exitosamente a {{inscripcionFinal.actividad.nombre}}
+        para el dia {{inscripcionFinal.diaElegido.fecha}} a las {{inscripcionFinal.horarioElegido.horaInicio}}</p>
+    <p>Los participantes inscriptos son:</p>
+
+    @for(partic of inscripcionFinal.participantes; track partic){
+        <div>
+            <hr class="separador">
+        </div>
+        <p>Nombre: {{partic.nombre}}</p>
+        <p>Dni: {{partic.dni}}</p>
+        <p>Edad: {{partic.edad}}</p>
+        @if(partic.talla){
+            <p>Talla: {{partic.talla}}</p>
+        }
+    }
+    <button 
+    mat-flat-button
+    class="inscribir-button" 
+    (click)="volverInscribir()">Volver</button>
+</div>
