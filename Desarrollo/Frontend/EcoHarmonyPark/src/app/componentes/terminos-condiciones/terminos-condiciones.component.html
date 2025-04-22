@@ -1,0 +1,7 @@
+<h2 mat-dialog-title>Términos y condiciones para {{data.nombreActividad}}</h2>
+<mat-dialog-content style="white-space: pre-line;">{{data.tyc}}</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+    <button mat-button [mat-dialog-close]="false">Rechazar</button>
+    <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Aceptar</button>
+  </mat-dialog-actions>
