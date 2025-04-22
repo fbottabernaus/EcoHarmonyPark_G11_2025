@@ -42,9 +42,6 @@ export class CorreoService {
       formData.append('archivo', form.archivo);
     }
 
-    this.http.post('http://localhost:3000/send-email', form).subscribe({
-      next: () => alert('Correo enviado con éxito'),
-      error: err => alert('Error al enviar: ' + err.message)
-    });
+    this.http.post('http://localhost:3000/send-email', form).subscribe();
   }
 }
