@@ -171,4 +171,4 @@ src/app/
 
 ## 15. Referencias
 
-Este documento se base en el [Style Guide de Google para proyectos front-end](https://angular.io/guide/styleguide)
+Este documento se base en el [Style Guide de Google para proyectos front-end](https://angular.dev/style-guide)
