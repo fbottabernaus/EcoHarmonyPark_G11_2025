@@ -1,5 +1,6 @@
 .contenedor-total{
-    background-color: rgb(215, 255, 200);
+    font-weight: bold !important;
+    background-color: #ECF39E;
     border-radius: 1rem;
     border: 1px solid black;
 }
@@ -12,16 +13,20 @@
 }
 
 h2{
+    font-weight: bold !important;
     text-align: center;
     font-family: 'Montserrat' !important;
 }
 input{
+    font-weight: bold !important;
     font-family: 'Montserrat' !important;
 }
 select{
+    font-weight: bold !important;
     font-family: 'Montserrat' !important;
 }
 button{
+    font-weight: bold !important;
     font-family: 'Montserrat' !important;
 }
 mat-form-field {
@@ -41,7 +46,7 @@ mat-form-field {
     color: white;
     border-radius: 5px;
     margin: 20px auto;
-    background-color: rgb(92, 175, 84);
+    background-color: #31572C;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
 
     
@@ -125,7 +130,7 @@ input::-webkit-inner-spin-button {
 
 .btn-accion{
     color: white;
-    background-color: rgb(92, 175, 84);
+    background-color: #31572C;
     box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
 }
 
@@ -134,12 +139,12 @@ input::-webkit-inner-spin-button {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(215, 255, 200); /* verde claro (mismo que fondo) */
+    background: #ECF39E; /* verde claro (mismo que fondo) */
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {    
-    background-color: rgb(92, 175, 84);
+    background-color: #31572C;
     border-radius: 10px;
-    border: 2px solid #d7ffc8; /* opcional: "borde" para separar del track */
+    border: 2px solid #31572C; /* opcional: "borde" para separar del track */
   }

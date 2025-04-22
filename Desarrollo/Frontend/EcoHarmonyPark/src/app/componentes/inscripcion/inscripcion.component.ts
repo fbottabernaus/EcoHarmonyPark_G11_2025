@@ -45,7 +45,6 @@ export interface DataParticipante{
 
 const formatter = new Intl.DateTimeFormat('es-ES', {
   weekday: 'long',   // Nombre completo del día
-  year: 'numeric',   // Año en formato numérico
   month: 'long',     // Nombre completo del mes
   day: 'numeric',    // Día del mes
 });
