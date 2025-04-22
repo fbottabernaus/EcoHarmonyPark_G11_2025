@@ -4,7 +4,7 @@
     
     <div style="text-align: center;">
         <div class="container-field">
-        <p>Actividad</p>
+        <p class="cabecera">Actividad</p>
         <select class="monserrat"
         [(ngModel)]="actSeleccionada"
         (change)="seleccionActividad()">
@@ -20,7 +20,7 @@
     <div style="text-align: center;">
     @if (actSeleccionada){
         <div class="container-field">
-            <p>Dia</p>
+            <p class="cabecera">Dia</p>
             <mat-form-field class="example-full-width hidden-input">
                 <mat-label class="hidden-input">Choose a date</mat-label>
                 <input 
@@ -34,12 +34,12 @@
                 <mat-hint class="hidden-input">MM/DD/YYYY</mat-hint>
                 <mat-datepicker #picker ></mat-datepicker>
             </mat-form-field>
-            <button mat-flat-button class="participantes-button" (click)="picker.open()">{{selectedString}}</button>
+            <button mat-flat-button class="dia-button" (click)="picker.open()">{{selectedString}}</button>
         </div>
     }
     @if (diaSeleccionado){
         <div class="container-field">
-            <p>Horario</p>
+            <p class="cabecera">Horario</p>
             <select class="monserrat"
                 [(ngModel)]="horSeleccionado"
                 (change)="seleccionHorario()">
@@ -53,7 +53,7 @@
     }
     
     @if (horSeleccionado){
-        <p class="monserrat">Cupos disponibles: {{horSeleccionado.cuposDisponibles()}}</p>
+        <p class="monserrat" style="color: white;">Cupos disponibles: {{horSeleccionado.cuposDisponibles()}}</p>
         <div style="text-align: center; margin: 10px 0px;">
             <button
                 class="participantes-button"

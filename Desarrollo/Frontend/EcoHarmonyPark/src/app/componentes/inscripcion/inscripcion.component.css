@@ -3,16 +3,18 @@
     flex-direction: column;
     width: 390px;
     margin: 5px 5px;
-    background-color: rgb(215, 255, 200);
-    border: 1px solid black;
+    background-color: #31572C;
+    border: 1px solid #4F772D;
     padding: 10px;
     border-radius: 1rem;
     min-height: 300px; /* O puedes usar 100vh si quieres que tome toda la altura de la pantalla */
 }
 .monserrat{
+  font-weight: bold;
   font-family: 'Montserrat';
 }
 .titulo{
+  color:white;
   text-align: center;
   font-family: 'Montserrat';
 }
@@ -42,6 +44,7 @@
 
 
 .container-field p{
+    color:white;
     /* centrado horizontal y vertical */
     display: flex;
     justify-content: center;
@@ -60,6 +63,9 @@
     text-align: center;
 }
 
+.cabecera{
+  font-weight: bold
+}
 .footer {
     margin-top: auto;
 }
@@ -75,29 +81,42 @@
 }
 
 .tyc{
+  color:white !important;
     display: inline;
     text-align: center;
     width: 100%;
     font-family: 'Montserrat';
+    font-size: smaller;
 }
 
 .tyc-link{
-    color:blue;
+  color:white !important;
     text-decoration: underline;
     cursor:pointer;
     font-family: 'Montserrat' !important;
 }
 
 .inscribir-button{
-    background-color: rgb(92, 175, 84) !important;
-    border: 1px solid black;
+    font-weight: bold;
+    color:white !important;
+    background-color: #90A955 !important;
     font-family: 'Montserrat';
 }
 
+.dia-button{
+  font-weight: bold;
+  color:black !important;
+  background-color: white !important;
+  border: 1px solid black;
+  font-family: 'Montserrat';
+  font-size: smaller;
+}
 .participantes-button{
-    background-color: rgb(92, 175, 84) !important;
-    border: 1px solid black;
+    font-weight: bold;
+    color:white !important;
+    background-color: #90A955 !important;
     font-family: 'Montserrat';
+    font-size: smaller;
 }
 
 /* -------- */ 
@@ -132,8 +151,8 @@
 
 /* Checked */
 .custom-checkbox input:checked ~ .checkmark {
-  background-color: #60a55c;
-  border-color: #60a55c;
+  background-color: #90A955;
+  border-color: #90A955;
 }
 
 /* Tilde */

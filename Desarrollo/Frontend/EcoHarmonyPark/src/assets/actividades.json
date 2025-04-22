@@ -2,7 +2,7 @@
   {
     "id": 1,
     "nombre": "Tirolesa",
-    "tyc": "Términos y condiciones para realizar tirolesa.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse feugiat sed libero sed dignissim. Nulla nec tincidunt nisl, ut placerat ex. Integer eget sem vel nibh mollis aliquet. Duis molestie eu elit et faucibus. Curabitur sem dui, congue id mattis eget, commodo a nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras erat lorem, placerat et tincidunt quis, vehicula vitae enim.\n\nNam id sollicitudin tortor, nec fringilla velit. Pellentesque ac fermentum enim, nec rutrum urna. Praesent tincidunt justo ultricies, vestibulum leo ut, commodo elit. In pulvinar diam tincidunt nibh faucibus sagittis. Maecenas lectus mi, condimentum ac tortor ac, posuere convallis nibh. Nunc nibh magna, eleifend ut odio ut, elementum sollicitudin metus. Praesent ligula elit, dapibus eu arcu in, sollicitudin bibendum risus. Quisque et ante magna. Maecenas eu mi a ipsum varius tristique.\n\nAliquam condimentum ultricies justo, eu sodales augue mattis a. Quisque nec semper felis. Quisque lacinia dolor nisi, aliquam consectetur tellus fringilla eu. Nulla libero ex, rutrum vel pulvinar id, condimentum commodo sem. Proin sit amet lacinia arcu. Cras eget rutrum arcu. Proin luctus velit ac ipsum pellentesque, sed tempus est aliquam. Proin vestibulum, dolor quis efficitur fringilla, augue mauris convallis metus, ac tempus ex tellus non nulla. In quis orci dignissim, tempor ante nec, interdum velit. Aliquam elementum tincidunt elementum. Fusce eu convallis libero, in finibus risus. Quisque faucibus auctor nisl et dictum. Nunc id ex congue, viverra ipsum et, varius mi. Praesent vitae ultrices justo. Mauris consequat magna nec turpis interdum, vel congue dui pretium. Vestibulum ornare ex et ullamcorper sollicitudin.\n\nQuisque iaculis quam et augue commodo, et interdum massa faucibus. Vestibulum facilisis libero metus, nec bibendum orci tincidunt ut. Maecenas urna neque, fermentum et placerat sed, tincidunt pharetra neque. Vivamus faucibus congue nibh, vitae dignissim neque sollicitudin a. Curabitur non est diam. Fusce eu malesuada quam. Nullam urna orci, tempor sed dignissim ut, venenatis et nisi. Proin id malesuada dolor. Donec pulvinar leo pellentesque auctor luctus. Maecenas justo nisl, pellentesque at leo vitae, condimentum condimentum massa. Maecenas scelerisque leo a dolor condimentum, ut vestibulum nunc vestibulum.\n\nQuisque non facilisis lectus, nec vehicula ligula. Sed euismod justo id ante tempus ultricies. Quisque arcu justo, elementum sit amet finibus non, gravida non quam. Aenean mollis velit ac turpis elementum accumsan. Phasellus ultricies mi et libero tempor, et elementum lectus placerat. Integer eget velit eu nunc accumsan dapibus. Quisque dui ipsum, molestie id semper vitae, semper nec enim. Fusce a purus vitae massa consectetur fringilla ac a turpis. Nullam eleifend, turpis nec vulputate euismod, arcu tellus egestas felis, ut laoreet arcu enim et tellus. Duis dapibus sapien cursus, bibendum urna at, convallis elit. Vivamus gravida massa id lacus suscipit, a interdum dui fringilla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ut orci a neque feugiat ultrices vitae quis velit.",
+    "tyc":  "La tirolesa es una actividad de deslizamiento aéreo con arnés desde una plataforma elevada a través de un cable de acero.\n\nPeso permitido: entre 30 kg y 100 kg. No se harán excepciones.\n\nAltura mínima recomendada: 1,20 metros.\n\nEs obligatorio asistir a una charla técnica de seguridad antes de participar.\n\nSe requiere el uso del equipo completo (casco, arnés, polea, guantes), provisto por el parque.\n\nNo apta para: personas embarazadas, personas con problemas de columna, vértigo severo o afecciones cardíacas, personas que hayan ingerido alcohol o estupefacientes antes o durante la actividad.\n\nLos participantes deben seguir en todo momento las instrucciones del personal técnico.\n\nEstá prohibido realizar saltos, maniobras peligrosas o detenerse intencionalmente durante el recorrido.\n\nNo se permite llevar mochilas, carteras, cámaras o celulares durante el trayecto.\n\nLa actividad se suspenderá en caso de tormentas eléctricas o condiciones meteorológicas adversas.",
     "dias": [
       {
         "id": 0,
@@ -2500,7 +2500,7 @@
   {
     "id": 2,
     "nombre": "Safari",
-    "tyc": "Términos y condiciones para realizar safari. Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "tyc": "La actividad consiste en un recorrido guiado en vehículo por zonas delimitadas del parque donde habitan animales en semi-libertad.\n\nLa duración aproximada es de 60 minutos.\n\nNo está permitido sacar brazos, piernas u objetos fuera del vehículo durante el recorrido.\n\nSe deben mantener puertas y ventanas cerradas, excepto cuando el guía indique lo contrario.\n\nLa interacción directa con animales solo será permitida si el guía lo autoriza y supervisa.\n\nNo se permite el consumo de alimentos ni bebidas durante el recorrido.\n\nRecomendado para personas mayores de 4 años. Menores deben ir acompañados por un adulto.\n\nPersonas con movilidad reducida deben informar previamente para recibir asistencia adecuada.\n\nEn caso de que un participante genere alteraciones al comportamiento de los animales, podrá ser retirado de la actividad sin derecho a reembolso.\n\nEl parque no se responsabiliza por objetos personales perdidos durante el recorrido.",
     "dias": [
       {
         "id": 0,
@@ -4998,7 +4998,7 @@
   {
     "id": 3,
     "nombre": "Palestra",
-    "tyc": "Términos y condiciones para realizar palestra. Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "tyc": "La palestra consiste en una estructura vertical artificial destinada a la escalada recreativa.\n\nLa actividad se realiza bajo la supervisión de personal capacitado y requiere instrucción previa obligatoria.\n\nLos participantes deben contar con buena condición física y no presentar lesiones musculares, óseas, cardíacas o de equilibrio.\n\nEs obligatorio el uso del equipo de seguridad: arnés, casco y cuerda de sujeción (provistos por el parque).\n\nNo se permite escalar sin supervisión directa del personal autorizado.\n\nDurante la actividad no está permitido: usar teléfonos móviles o cámaras; subir con ropa suelta, sandalias o accesorios que puedan engancharse.\n\nEn caso de lluvia, tormenta eléctrica o vientos intensos, la actividad se reprogramará.",
     "dias": [
       {
         "id": 0,
@@ -7491,12 +7491,12 @@
         ]
       }
     ],
-    "vestimenta": false
+    "vestimenta": true
   },
   {
     "id": 4,
     "nombre": "Jardinería",
-    "tyc": "Términos y condiciones para realizar jardinería. Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+    "tyc": "La actividad tiene como objetivo fomentar el contacto con la naturaleza mediante el trabajo en huertas y jardines del parque.\n\nEstá orientada a niños, adolescentes y adultos.\n\nLos menores de 12 años deben estar acompañados por un adulto.\n\nLa duración es de aproximadamente 60 minutos y puede incluir: siembra, trasplante, riego y mantenimiento de plantas.\n\nEl parque provee materiales, herramientas, semillas y guantes.\n\nNo se permite retirar plantas, flores, frutos ni semillas sin autorización.\n\nSe recomienda asistir con ropa cómoda, que pueda ensuciarse, y calzado cerrado.\n\nLas personas con alergias conocidas a plantas, tierra o picaduras deben informarlo al momento de la inscripción.\n\nEn caso de condiciones climáticas desfavorables, la actividad podrá reprogramarse o realizarse en modalidad adaptada.\n\nSe fomentará el respeto por los espacios naturales y la biodiversidad presente. Cualquier daño intencional implicará la suspensión inmediata de la actividad.",
     "dias": [
       {
         "id": 0,
