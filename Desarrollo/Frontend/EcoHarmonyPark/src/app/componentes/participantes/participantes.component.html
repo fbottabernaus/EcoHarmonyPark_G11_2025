@@ -1,0 +1,71 @@
+<div class="contenedor-total">
+  <h2 mat-dialog-title>{{data.titulo}}</h2>
+
+  <mat-dialog-content class="sin-estilo-dialogo">
+    <div class="container-field">
+      <p class="cant-participantes">Cantidad de participantes</p>
+      <input 
+        type="number" 
+        class="input-cant-participantes"
+        [(ngModel)]="cantParticipantes"
+        placeholder="-"
+        [min]="0"
+        (input)="validarMaximo()"
+        (keydown)="evitarDecimal($event)"
+      >
+    </div>
+    <div class="container-field">
+      <p class="limite-cupos">Maximo: {{data.cuposDisponibles}}</p>
+    </div>
+
+    @if(cantParticipantes <= 100){
+      
+    @for(partic of participantes; track partic){
+      <h3 class="titulo-participante">Participante {{partic.id}}</h3>
+      <div class="container-field">
+        <p class="">Nombre</p>
+          <input class="input-field" [(ngModel)]="partic.nombre"
+          (keypress)="soloLetras($event)">
+      </div>
+      
+      <div class="container-field">
+        <p class="">DNI</p>
+          <input class="input-field" type="number" [(ngModel)]="partic.dni"
+          [max]="100000000"
+          [min]="0"
+          (input)="validarDni($event.target, partic)"
+          (keydown)="evitarDecimal($event)">
+      </div>
+      
+        
+      <div class="container-field">
+        <p class="">Edad</p>
+          <input class="input-field" type="number" [(ngModel)]="partic.edad" 
+          [min]="0"
+          [max]="100"
+          (input)="validarEdad($event.target)"
+          (keydown)="evitarDecimal($event)"
+          >
+      </div>
+      @if(data.vestimenta){
+        <div class="container-field">
+          <p>Talla</p>
+          <select [(ngModel)]="partic.talla">
+            <option value="XS">XS</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select>
+        </div>
+      }
+    }
+  }
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end" class="container-field">
+    <button mat-button class="btn-accion" (click)="rechazar()">Rechazar</button>
+    <button mat-button class="btn-accion" (click)="aceptar()">Aceptar</button>
+  </mat-dialog-actions>
+</div>

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+html, body, app-root {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* You can add global styles to this file, and also import other style files */
+.mat-mdc-dialog-surface{
+    border-radius: 1rem !important;
+}
+
+
+.checkbox.mat-mdc-checkbox-checked .mdc-checkbox__background {
+    background-color: #60a55c !important;
+    border-color: #60a55c !important;
+}
+
+/* Color del ícono (el tilde) */
+.checkbox.mat-mdc-checkbox-checked .mdc-checkbox__checkmark-path {
+    stroke: white !important;
+}
+
+/* Hover */
+.checkbox:hover .mdc-checkbox__background {
+    border-color: #60a55c ;
+}
+
+/* Focus outline */
+.checkbox .mdc-checkbox__ripple {
+    background-color: rgba(96, 165, 92, 0.1);
+}
