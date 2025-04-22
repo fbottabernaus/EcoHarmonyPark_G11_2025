@@ -8,6 +8,7 @@ import { DiaDTO } from "./diaDTO";
 
 
 export class InscripcionDTO{
+    public id!: number;
     public actividad:ActividadDTO
     public diaElegido:DiaDTO
     public horarioElegido:Horario

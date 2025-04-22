@@ -1,0 +1,36 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin: 5px 5px;
+    background-color: #31572C;
+    border: 1px solid #4F772D;
+    padding: 10px;
+    border-radius: 1rem;
+    min-height: 300px; /* O puedes usar 100vh si quieres que tome toda la altura de la pantalla */
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Monserrat' !important;
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Monserrat' !important;
+}
+.separador{
+    border: 2px solid white;
+}
+.inscribir-button{
+    font-weight: bold;
+    color:white !important;
+    background-color: #90A955 !important;
+    font-family: 'Montserrat';
+}

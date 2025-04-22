@@ -28,6 +28,7 @@ import {MatInputModule} from '@angular/material/input';
 
 
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
+import { Router } from '@angular/router';
 
 
 export interface DialogData {
@@ -76,7 +77,8 @@ export class InscripcionComponent implements OnInit {
   qrData="Inscripcion exitosa"
 
   constructor(private actividadServicio: ActividadService,
-    private inscripcionServicio: InscripcionService
+    private inscripcionServicio: InscripcionService,
+    private router: Router
   ) { }
 
   ngOnInit(): void {
@@ -197,9 +199,9 @@ export class InscripcionComponent implements OnInit {
     }
 
     let inscripcion = new InscripcionDTO(this.actSeleccionada, this.diaSeleccionado, this.horSeleccionado, this.participantesSeleccionados)
-    this.inscripcionServicio.registrarInscripcion(inscripcion)
+    let nuevoId = this.inscripcionServicio.registrarInscripcion(inscripcion)
     alert("Se pudo realizar la inscripción correctamente.");
-    //location.reload()
+    this.router.navigate(['/visualizar', nuevoId-1]);
   }
   public enviarCorreo(form: any) {
     emailjs.send('service_ft2t10w', 'template_k7iu6mq', form.value, 'a8mVOawSQcFYnQ1wA')
