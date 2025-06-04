@@ -1,0 +1,150 @@
+.contenedor-total{
+    font-weight: bold !important;
+    background-color: #ECF39E;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+.limite-cupos{
+    /* centrado horizontal y vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat' !important;
+}
+
+h2{
+    font-weight: bold !important;
+    text-align: center;
+    font-family: 'Montserrat' !important;
+}
+input{
+    font-weight: bold !important;
+    font-family: 'Montserrat' !important;
+}
+select{
+    font-weight: bold !important;
+    font-family: 'Montserrat' !important;
+}
+button{
+    font-weight: bold !important;
+    font-family: 'Montserrat' !important;
+}
+mat-form-field {
+    width: 200px;
+    vertical-align: top;
+}
+.sin-estilo-dialogo {
+    display: block; /* necesario si usás all: unset */
+    font: inherit;
+    color: inherit;
+    font-family: 'Montserrat' !important;
+}
+
+.titulo-participante{
+    height: 40px;
+    width: 150px;
+    color: white;
+    border-radius: 5px;
+    margin: 20px auto;
+    background-color: #31572C;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+
+    
+    /* centrado horizontal y vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-field{
+    height: 40px;
+    display: flex;
+    justify-content: space-between; /* uno a la izq, otro a la der */
+    align-items: center;            /* opcional: centra verticalmente */
+    width: 80%;                    /* asegurate de que tenga un ancho definido */
+    margin: auto;
+}
+
+.container-field p{
+    /* centrado horizontal y vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+}
+
+.container-field select{
+    height: 75%;
+    width: 60.5%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+    padding: 0px;
+    text-align: center;
+}
+
+.container-field .input-field{
+    height: 75%;
+    width: 60%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+    padding: 0px;
+    text-align: center;
+}
+
+.cant-participantes{
+    margin: 5px;
+    /* centrado horizontal y vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-cant-participantes {
+    height: 75%;
+    max-width: 15%;
+    min-width: 25px;
+    display: inline;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    outline: none; /* opcional: evita el borde azul al enfocar */
+    box-sizing: border-box; /* Asegura que padding y border no afecten el tamaño */
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+}
+
+.input-cant-listado:focus {
+    outline: 2px ridge rgba(0, 0, 0, 0.068);
+    border: 1px solid black; /* agrega solo el inferior */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.btn-accion{
+    color: white;
+    background-color: #31572C;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* ancho del scroll vertical */
+}
+
+::-webkit-scrollbar-track {
+    background: #ECF39E; /* verde claro (mismo que fondo) */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {    
+    background-color: #31572C;
+    border-radius: 10px;
+    border: 2px solid #31572C; /* opcional: "borde" para separar del track */
+  }

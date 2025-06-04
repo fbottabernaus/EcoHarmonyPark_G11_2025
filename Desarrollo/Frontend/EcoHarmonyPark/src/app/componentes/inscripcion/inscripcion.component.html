@@ -1,0 +1,88 @@
+
+<div class="contenedor">        
+    <h2 class="titulo">Inscripción a actividades</h2>
+    
+    <div style="text-align: center;">
+        <div class="container-field">
+        <p class="cabecera">Actividad</p>
+        <select class="monserrat"
+        [(ngModel)]="actSeleccionada"
+        (change)="seleccionActividad()">
+            <option
+            *ngFor="let act of actividades"
+            [ngValue]="act">
+                {{act.toString()}}
+            </option>
+        </select>
+        </div>
+    </div>
+    
+    <div style="text-align: center;">
+    @if (actSeleccionada){
+        <div class="container-field">
+            <p class="cabecera">Dia</p>
+            <mat-form-field class="example-full-width hidden-input">
+                <mat-label class="hidden-input">Choose a date</mat-label>
+                <input 
+                class="hidden-input" 
+                matInput 
+                [matDatepicker]="picker" 
+                [min]="minDate" 
+                [max]="maxDate" 
+                (dateChange)="seleccionDia($event.value)"
+                [matDatepickerFilter]="filtrarDias">
+                <mat-hint class="hidden-input">MM/DD/YYYY</mat-hint>
+                <mat-datepicker #picker ></mat-datepicker>
+            </mat-form-field>
+            <button mat-flat-button class="dia-button" (click)="picker.open()">{{selectedString}}</button>
+        </div>
+    }
+    @if (diaSeleccionado){
+        <div class="container-field">
+            <p class="cabecera">Horario</p>
+            <select class="monserrat"
+                [(ngModel)]="horSeleccionado"
+                (change)="seleccionHorario()">
+                <option
+                    *ngFor="let hor of getHorariosDisponibles()"
+                    [ngValue]="hor">
+                    {{hor.horaInicio}}
+                </option>
+            </select>
+        </div>
+    }
+    
+    @if (horSeleccionado){
+        <p class="monserrat" style="color: white;">Cupos disponibles: {{horSeleccionado.cuposDisponibles()}}</p>
+        <div style="text-align: center; margin: 10px 0px;">
+            <button
+                class="participantes-button"
+                mat-flat-button
+                (click)="participantesButton()">
+                Añadir participantes
+            </button>
+        </div>
+    }
+    </div>
+    <div class="footer">
+        @if (this.existenParticipantes()){
+        <div class="container-tyc">
+            <label class="custom-checkbox">
+                <input type="checkbox" [(ngModel)]="checkTyC">
+                <span class="checkmark"></span>
+            </label>
+            <p class="tyc">He leido y acepto los
+                <a class="tyc-link" (click)="clickTyc()"> términos y condiciones</a>
+            </p>
+        </div>
+    }
+        <div style="text-align: center; margin: 10px 0px;">
+            <button
+                class="inscribir-button"
+                mat-flat-button
+                (click)="inscribirButton()">
+                Inscribir
+            </button>
+        </div>
+    </div>
+</div>

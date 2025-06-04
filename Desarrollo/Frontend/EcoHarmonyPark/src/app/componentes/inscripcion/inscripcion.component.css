@@ -1,0 +1,189 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin: 5px 5px;
+    background-color: #31572C;
+    border: 1px solid #4F772D;
+    padding: 10px;
+    border-radius: 1rem;
+    min-height: 300px; /* O puedes usar 100vh si quieres que tome toda la altura de la pantalla */
+}
+.monserrat{
+  font-weight: bold;
+  font-family: 'Montserrat';
+}
+.titulo{
+  color:white;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+.select{
+    width: 350px;
+}
+
+.container-field{
+    height: 40px;
+    display: flex;
+    justify-content: space-between; /* uno a la izq, otro a la der */
+    align-items: center;            /* opcional: centra verticalmente */
+    width: 80%;                    /* asegurate de que tenga un ancho definido */
+    margin: 10px auto;
+    font-family: 'Montserrat' !important;
+}
+
+.container-field-2{
+  height: 300px;
+  display: flex;
+  justify-content: space-between; /* uno a la izq, otro a la der */
+  align-items: center;            /* opcional: centra verticalmente */
+  width: 80%;                    /* asegurate de que tenga un ancho definido */
+  margin: 10px auto;
+  font-family: 'Montserrat' !important;
+}
+
+
+.container-field p{
+    color:white;
+    /* centrado horizontal y vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-align: center;
+}
+
+.container-field select{
+    height: 75%;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.10);
+    padding: 0px;
+    text-align: center;
+}
+
+.cabecera{
+  font-weight: bold
+}
+.footer {
+    margin-top: auto;
+}
+
+.container-tyc{
+    height: 40px;
+    width: 90%;      
+    display: flex;
+    align-items: center;   
+    justify-items: center;
+    margin: 10px auto;
+    padding: 0px;
+}
+
+.tyc{
+  color:white !important;
+    display: inline;
+    text-align: center;
+    width: 100%;
+    font-family: 'Montserrat';
+    font-size: smaller;
+}
+
+.tyc-link{
+  color:white !important;
+    text-decoration: underline;
+    cursor:pointer;
+    font-family: 'Montserrat' !important;
+}
+
+.inscribir-button{
+    font-weight: bold;
+    color:white !important;
+    background-color: #90A955 !important;
+    font-family: 'Montserrat';
+}
+
+.dia-button{
+  font-weight: bold;
+  color:black !important;
+  background-color: white !important;
+  border: 1px solid black;
+  font-family: 'Montserrat';
+  font-size: smaller;
+}
+.participantes-button{
+    font-weight: bold;
+    color:white !important;
+    background-color: #90A955 !important;
+    font-family: 'Montserrat';
+    font-size: smaller;
+}
+
+/* -------- */ 
+.custom-checkbox {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+  }
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+/* Checked */
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #90A955;
+  border-color: #90A955;
+}
+
+/* Tilde */
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 5px;
+  top: 1px;
+  width: 4px;
+  height: 9px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox input:checked ~ .checkmark::after {
+  display: block;
+}
+
+/* Hover */
+.custom-checkbox:hover .checkmark {
+  border-color: #60a55c;
+}
+
+.hidden-input {
+  width: 0;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  border: none;
+  visibility: hidden;
+  position: absolute;
+}

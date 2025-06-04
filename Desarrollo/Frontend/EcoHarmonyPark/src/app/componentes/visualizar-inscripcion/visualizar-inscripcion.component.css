@@ -1,0 +1,60 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    margin: 5px 5px;
+    background-color: #31572C;
+    border: 1px solid #4F772D;
+    padding: 10px;
+    border-radius: 1rem;
+    height: auto;  /* Deja que el contenedor crezca con el contenido */
+    max-height: 80vh;  /* Opcional: Si deseas limitar la altura máxima */
+    overflow-y: auto;  /* Permite el desplazamiento si el contenido excede el tamaño del contenedor */
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;  /* Asegura que el padding y borde se incluyan en el tamaño total */
+
+}
+
+h2{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Monserrat' !important;
+}
+
+p{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-family: 'Monserrat' !important;
+}
+.separador{
+    border: 2px solid white;
+}
+.inscribir-button{
+    font-weight: bold;
+    color:white !important;
+    background-color: #90A955 !important;
+    font-family: 'Montserrat';
+}
+
+::-webkit-scrollbar {
+    width: 10px; /* ancho del scroll vertical */
+    height: 8px;  /* Altura de la scrollbar horizontal */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;  /* Fondo de la pista de la scrollbar */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {    
+    background: #31572C;  /* Color del pulgar (parte que arrastras) */
+    border-radius: 10px;
+    border: 2px solid #31572C;  /* Border que se "despega" del borde */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #90A955;  /* Color del pulgar cuando se pasa el ratón */
+}
