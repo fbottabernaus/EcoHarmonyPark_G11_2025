@@ -3,7 +3,6 @@ import nodemailer from 'nodemailer';
 import cors from 'cors';
 import multer from 'multer';
 import * as QRCode from 'qrcode';
-import { Reserva } from './Reserva';
 import { Participante } from './participante';
 
 const app = express();
@@ -36,7 +35,7 @@ app.post('/send-email', upload.none(), async (req, res) => {
     service: 'gmail',
     auth: {
       user: 'espanonbraian@gmail.com',
-      pass: 'ekmsbwudsjghtkyc'
+      pass: 'qhjvbofdtclkkqsv'
     }
   });
 

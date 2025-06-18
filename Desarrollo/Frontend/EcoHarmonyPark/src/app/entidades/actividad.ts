@@ -12,7 +12,7 @@ export class Actividad{
     constructor(){
         this.dias = [];
         //Creación de varios dias seguidos.
-        let fecha = new Date(2025, 3, 21);
+        let fecha = new Date();
 
         for (let i = 0; i < 30; i++){
             let nuevoDia = new Dia()
