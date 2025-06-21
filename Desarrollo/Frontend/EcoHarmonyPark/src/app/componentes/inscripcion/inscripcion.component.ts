@@ -29,6 +29,7 @@ import {MatInputModule} from '@angular/material/input';
 
 import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 import { Router } from '@angular/router';
+import { addDays } from 'date-fns';
 
 
 export interface DialogData {
@@ -71,8 +72,8 @@ export class InscripcionComponent implements OnInit {
   selected: Date|null = new Date(); // Fecha seleccionada por defecto
   selectedString = "Seleccionar una fecha"
   
-  readonly minDate = new Date(2025, 3, 22);
-  readonly maxDate = new Date(2025, 4, 22);
+  readonly minDate = new Date;
+  readonly maxDate = addDays(this.minDate, 30)
 
   qrData="Inscripcion exitosa"
 
@@ -81,6 +82,7 @@ export class InscripcionComponent implements OnInit {
     private router: Router
   ) { }
 
+  
   ngOnInit(): void {
     this.actividadServicio.cargarActividad().subscribe((res: Actividad[])=>{
       this.actividades = res

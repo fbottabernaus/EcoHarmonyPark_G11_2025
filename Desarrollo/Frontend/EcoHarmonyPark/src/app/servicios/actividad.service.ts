@@ -7,6 +7,7 @@ import { map } from 'rxjs/operators';
 import { of } from 'rxjs';
 import { InscripcionDTO } from '../DTOs/inscripcionDTO';
 import { Dia } from '../entidades/dia';
+import { addDays } from 'date-fns';
 
 @Injectable({
   providedIn: 'root'
@@ -31,6 +32,7 @@ export class ActividadService {
   crearObjetosActividad(json:Actividad[]){
     let listaAct = json.map((a: any) => Actividad.fromJSON(a));
     this.listaActividades = listaAct
+    this.reiniciarFechas()
     return this.listaActividades
   }
 
@@ -75,5 +77,17 @@ export class ActividadService {
       }
     }
     this.guardarListaActividad()
+  }
+
+  reiniciarFechas(){
+    let nuevoDia = new Date()
+    for (let i = 0; i < 4; i++){
+      let act = this.listaActividades[i]  
+      for (let j = 0; j < 30; j++){
+
+          
+          act.dias[j].fecha = addDays(nuevoDia, j)
+       }
+    }
   }
 }
