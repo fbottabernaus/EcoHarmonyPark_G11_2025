@@ -11,6 +11,7 @@ Se creará una primera línea base una vez que se hayan cargado todos los archiv
 EcoHarmony_Park_G11_2025
 - 📂 **Documentacion/**
   - 📂 **Casos de prueba/**
+  - 📂 **EntregasTP/**
   - 📂 **Minutas/**
   - 📂 **Requerimientos/**
   - 📂 **User Stories/**
