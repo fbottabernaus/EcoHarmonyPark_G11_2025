@@ -43,7 +43,7 @@ EcoHarmony_Park_G11_2025
 | Herramientas de desarrollo    | `<<NombreHerramienta>>_HD.<<ext>>`        | EcoHarmony_Park_G11_2025/Plan_de_configuracion/Herramientas_de_desarrollo              |
 | Dependencias                  | `<<Nro>>_<<NombreDepend>>.pdf`        | EcoHarmony_Park_G11_2025/Plan_de_configuracion/Dependencias              |
 | User Stories                  | `US_<<Nro>>_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Documentacion/User_Stories                      |
-| Casos de prueba               | `CP_<<Nro>>_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Documentacion/Casos_de_prueba                      |
+| Casos de prueba               | `CP_<<Nro>>_<<Nombre Historia de Usuario>>_<<Nombre>>.pdf`     | EcoHarmony_Park_G11_2025/Documentacion/Casos_de_prueba                      |
 | EntregasTP                    | `TrabajoPráctico<<Nro>>.pdf`           | EcoHarmony_Park_G11_2025/Documentacion/EntregasTP                     |
 | Minutas                       | `Minuta_<<Fecha>>_<<Nombre>>.pdf`      | EcoHarmony_Park_G11_2025/Documentacion/Minutas                      |
 | Requerimientos                | `<<Nombre>>_<<Versión>>.pdf`           | EcoHarmony_Park_G11_2025/Documentacion/Requerimientos                      |
@@ -77,3 +77,4 @@ EcoHarmony_Park_G11_2025
 | `<<Versión>>` | Numero de versionado del item de configuración |
 | `<<Periodo>>` | Periodo de vigencia para la planificación. Se reconocerán los periodos con fecha de inicio y fecha fin, con el formato 'dd-mm-aaaa_dd-mm-aaaa' d:Día, m:Mes, a:Año|
 | `<<Tipo>>` | Nombre del componente desarrollado (Ej: Pantalla principal, Menu, Entidades) |
+| `<<Nombre Historia de Usuario>>` | Nombre de la Historia de Usuario correspondiente |
