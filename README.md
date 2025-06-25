@@ -44,6 +44,7 @@ EcoHarmony_Park_G11_2025
 | Dependencias                  | `<<Nro>>_<<NombreDepend>>.pdf`        | EcoHarmony_Park_G11_2025/Plan_de_configuracion/Dependencias              |
 | User Stories                  | `US_<<Nro>>_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Documentacion/User_Stories                      |
 | Casos de prueba               | `CP_<<Nro>>_<<Nombre>>.pdf`            | EcoHarmony_Park_G11_2025/Documentacion/Casos_de_prueba                      |
+| EntregasTP                    | `TrabajoPráctico<<Nro>>.pdf`           | EcoHarmony_Park_G11_2025/Documentacion/EntregasTP                     |
 | Minutas                       | `Minuta_<<Fecha>>_<<Nombre>>.pdf`      | EcoHarmony_Park_G11_2025/Documentacion/Minutas                      |
 | Requerimientos                | `<<Nombre>>_<<Versión>>.pdf`           | EcoHarmony_Park_G11_2025/Documentacion/Requerimientos                      |
 | Bibliografia                  | `<<Título>>_<<Autor>>.pdf`             | EcoHarmony_Park_G11_2025/Documentacion/Bibliografia                      |
